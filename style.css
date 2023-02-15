@@ -142,6 +142,12 @@ footer {
 }
 /* Responsive layout - makes a one column layout instead of a two-column layout for img */
 @media (max-width: 800px) {
+  nav {
+    padding: 20px 20px;
+  }
+  ul {
+    font-size: 16px;
+  }
   .image-list {
     flex-direction: column;
   }
@@ -151,5 +157,16 @@ footer {
   .placeholder {
     max-width: 400px;
     margin: 10px;
+  }
+  .call-to-action-section {
+    max-width: 400px;
+  }
+  .header-button {
+    margin: 0 150px;
+    align-items: center;
+  }
+  .left-header {
+    max-width: 400px;
+    margin-left: 50px;
   }
 }
